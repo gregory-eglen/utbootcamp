@@ -25,19 +25,21 @@
 }
 
 .slogan {
-  font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+  font-family: 'fff_tusjbold', sans-serif;
   font-style: italic;
+  font-size: 27px;
   padding-top: 26px;
 }
 
 .links {
-  padding-top: 26px;
+  padding-top: 20px;
 }
 
 .links a {
   color: black;
+  font-family: 'aquilinetworegular', sans-serif;
   font-size: 25px;
-  border-bottom: 1px solid #dfdfdf;
+  font-weight: bold;
 }
 
 header {
@@ -46,4 +48,21 @@ header {
 
 hr {
   clear:both;
+}
+
+h1 {
+  font-family: 'aquilinetworegular', sans-serif;
+  font-weight: bold;
+  font-size: 48px;
+  padding-bottom: 25px;
+}
+
+h2 {
+  font-family: "fff_tusjbold", sans-serif;
+}
+
+
+td, th {
+  padding-right: 20px;
+  text-align: left;
 }
